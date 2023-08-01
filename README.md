@@ -10,12 +10,19 @@ The API uses Django's built-in database models and forms, making it easier to ha
 (3) When a to-do is created, the creation date and time are saved. When the user marks it complete, the date and time it was marked complete will be saved. When an item is not marked complete, there is no completion date or time.  
 (4) There is a deleted item list to record all deleted items and when they were deleted.   
 (5) Users can also choose to perform a restore operation to restore deleted items to the Checklist.
-### Steps
-(1) Navigate into this folder and run the following commands:
+## Steps
+(1) Navigate into this folder and run the following command:
 ```
 python manage.py runserver
 ```
 (2) You can view it from the web browser on port 8000 (http://127.0.0.1:8000/).
+## Test
+I created unit tests to test related functionality such as home page view, deleting a task, restoring a deleted task, etc.   
+Navigate into this folder and run the following command to run the tests:
+```
+python manage.py test
+```
 ## 
-![image](https://github.com/Avaritia1/todochecklist/assets/80332537/fef57cde-67fc-4df3-bd8b-98a3bb3d0d6b)
+![image](https://github.com/Avaritia1/todochecklist/assets/80332537/fc947085-7405-41c5-b696-77b4c41786ef)
+
 
