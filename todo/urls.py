@@ -2,7 +2,6 @@ from django.urls import path
 from .views import home, delete, mark_complete, mark_incomplete, restore
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
-
 app_name = "todo"
 
 urlpatterns = [

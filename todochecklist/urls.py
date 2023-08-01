@@ -19,7 +19,5 @@ from django.contrib import admin
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('todo.urls')),
-    path('delete/<int:todo_id>/', include('todo.urls')),
-    path('mark_complete/<int:todo_id>/', include('todo.urls')),
-    path('mark_incomplete/<int:todo_id>/', include('todo.urls')),
 ]
+
